@@ -5,15 +5,17 @@ document.addEventListener('DOMContentLoaded', function () {
     let collapsiblesInstance = M.Collapsible.init(collapsibles);
     let tooltips = document.querySelectorAll(".tooltipped");
     let tooltipsInstance = M.Tooltip.init(tooltips);
+    let selects = document.querySelectorAll("select");
+    let selectsInstance = M.FormSelect.init(selects);
     let datepickers = document.querySelectorAll(".datepicker");
-     let datepickersInstance = M.Datepicker.init(datepickers, {
-         format: "dd mmmm, yyyy",
-         yearRange: 3,
-         showClearBtn: true,
-         /** 'i18n' is the abbreviation for Internationalization and Localization. This allows us to customize the calendar text for example, 
-         if we wanted the calendar to display in a foreign language. */
-         i18n: { 
-             done: "Select"
+    let datepickersInstance = M.Datepicker.init(datepickers, {
+        format: "dd mmmm, yyyy",
+        yearRange: 3,
+        showClearBtn: true,
+        /** 'i18n' is the abbreviation for Internationalization and Localization. This allows us to customize the calendar text for example, 
+        if we wanted the calendar to display in a foreign language. */
+        i18n: { 
+            done: "Select"
          }
      });
  });
