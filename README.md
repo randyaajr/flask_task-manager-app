@@ -67,13 +67,17 @@ Logged in as randyaajrsp@gmail.com
 
 
 ## WireFrames
-Home Page <br>
+**Home Page** <br>
+*Here is where all users can see which tasks are still needed to completed:*
 ![Home Page](static/img/1.png) <br>
-Registration Page <br>
+**Registration Page** <br>
+*All new users will need to register to add their own tasks:*
 ![alt text](static/img/2.png) <br>
-Add Task Page <br>
+**Add Task Page** <br>
+*Authorized user may add their new tasks here:*
 ![alt text](static/img/3.png) <br>
-Manage Tasks Page <br>
+**Manage Tasks Page** <br>
+*Authorized admin users can edit/delete tasks:*
 ![alt text](static/img/4.png) <br>
 
 ## Live Link (Heroku)
