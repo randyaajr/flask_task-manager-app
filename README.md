@@ -29,7 +29,7 @@ pymongo==3.11.2
 Werkzeug==1.0.1
 ```
 
-## Deployment
+## Deployment/Activation
 Github pages doesn't really like flask designed sites.. So I used Heroku!
 
 Installing Flask
@@ -39,6 +39,10 @@ gitpod /workspace/thorin-and-co_flask-app $ pip3 install Flask
 Starting Flask
 ```
 gitpod /workspace/thorin-and-co_flask-app $ python3 app.py
+```
+Installing PyMongo
+```
+gitpod /workspace/thorin-and-co_flask-app $ pip3 install Flask-PyMongo
 ```
 Installing Heroku
 ```
