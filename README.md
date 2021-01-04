@@ -34,23 +34,23 @@ Github pages doesn't really like flask designed sites.. So I used Heroku!
 
 Installing Flask
 ```
-gitpod /workspace/thorin-and-co_flask-app $ pip3 install Flask
+gitpod /workspace/task-manager-app $ pip3 install Flask
 ```
 Starting Flask
 ```
-gitpod /workspace/thorin-and-co_flask-app $ python3 app.py
+gitpod /workspace/task-manager-app $ python3 app.py
 ```
 Installing PyMongo
 ```
-gitpod /workspace/thorin-and-co_flask-app $ pip3 install Flask-PyMongo
+gitpod /workspace/task-manager-app $ pip3 install Flask-PyMongo
 ```
 Installing Heroku
 ```
-gitpod /workspace/thorin-and-co_flask-app $ npm install -g heroku
+gitpod /workspace/task-manager-app $ npm install -g heroku
 ```
 Heroku Login
 ```
-gitpod /workspace/thorin-and-co_flask-app $ heroku login -i
+gitpod /workspace/task-manager-app $ heroku login -i
 ```
 ```
 heroku: Enter your login credentials
