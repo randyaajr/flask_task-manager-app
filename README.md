@@ -1,5 +1,9 @@
 # Task Manager App!
 ------
+Task Manager demonstrates my skills in Data Centric Development. This application performs create, read, update, and delete calls, otherwise known as CRUD calls, to a MongoDb database.
+All built with a micro web framework called Flask. Users will be able to register, see their profile, log out, and log back in again. Registered users will be able to add a new task, 
+which includes selecting a due date using Materialize's datepicker component, and toggle a swich to mark the task as urgent. Users will also be able to edit tasks, but will only be permitted 
+to edit and or delete their own tasks, not any of the tasks submitted by others.
 
 
 ## Languages/Frameworks used
